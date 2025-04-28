@@ -13,7 +13,7 @@ header('Content-Type: text/html; charset=iso-8859-1');
 
 echo 'Versao Atual do PHP: ' . phpversion() . '<br>';
 
-$servername = "N/A(Não possuo servidor da AWS ativo - Trocar posteriormente)";
+$servername = null;
 $username = "root";
 $password = "Senha123";
 $database = "meubanco";
